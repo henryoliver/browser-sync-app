@@ -251,6 +251,13 @@ module.exports = function(grunt) {
 						src: ['*.{ico,webp}'],
 						dest: '<%= path.dist %>/img'
 					},
+					// Devices icons and splash screens
+					{
+						expand: true,
+						cwd: '<%= path.app %>/assets/images/res',
+						src: ['**'],
+						dest: '<%= path.dist %>/res'
+					},
 					// Fonts files
 					{
 						expand: true,
