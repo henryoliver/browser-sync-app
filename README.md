@@ -1,4 +1,4 @@
-browser-sync-app
+Browser Sync App
 ================
 
-Browser sync application for iOS and Androidf
+Browser sync application for iOS and Android

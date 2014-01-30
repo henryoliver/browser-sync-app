@@ -1,0 +1,40 @@
+doctype html
+html(lang='en')
+
+	head
+		include partials/_head
+
+	body
+		header
+			hgroup
+				h1
+					| Browser Sync App
+				h2
+					| Browser sync application for iOS and Android
+
+		section
+			h1
+				| Some pictures bellow
+			//build:[src] img/
+			img(src='assets/images/image.svg' alt='image')
+			img(src='assets/images/image.png' alt='image')
+			///build
+
+			form
+				label Name
+				input(id='name' type='text')
+
+				label Email
+				input(id='email' type='email')
+
+				input(type='submit' value='Submit')
+
+			a(href='#')
+				| Click here!
+
+
+		//- Footer
+		include partials/_footer
+
+		//- Scripts
+		include partials/_scripts

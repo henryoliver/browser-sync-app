@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	Polenlabs Team
+    @henry_s_oliver
+
+# THANKS
+	polen.is
+
+# TECHNOLOGY COLOPHON
+    HTML5, CSS3
+    Normalize.css
+    Cordova

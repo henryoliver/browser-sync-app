@@ -1,0 +1,22 @@
+{
+  "name": "browser-sync-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/henryoliver/browser-sync-app",
+  "authors": [
+    "Henry Oliver <henry_oliver@me.com>"
+  ],
+  "description": "Browser sync application for iOS and Android",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dev/assets/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.styl": "~2.1.2"
+  }
+}
