@@ -1,17 +1,8 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+.DS_Store
+.tmp
 
-pids
-logs
-results
+cordova
+app/assets/vendors
 
 npm-debug.log
 node_modules
-app/assets/vendors
-cordova
